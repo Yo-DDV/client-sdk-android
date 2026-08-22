@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :livekit-android-sdk:publishReleasePublicationToMavenLocal -PRELEASE_SIGNING_ENABLED=false
